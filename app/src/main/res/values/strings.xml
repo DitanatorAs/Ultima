@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Ultima</string>
+    <string name="MainTextView">Добро пожаловать!</string>
+    <string name="TextHint">Введите своё имя</string>
+    <string name="StartText">Начать</string>
+    <string name="ExampleText1">Чек-лист</string>
+    <string name="ExampleText2">Красивый текст</string>
+    <string name="ExampleText3">Изучайка</string>
+    <string name="ExampleText4">Угадайка</string>
+    <string name="ExampleText5">Удаление данных</string>
+    <string name="ExampleText6">Проверка на равенство</string>
+    <string name="ExampleText7">Сохранение данных</string>
+    <string name="ExampleText8">Плеер</string>
+    <string name="txtNext">Далее</string>
+    <string name="ing1">Соус</string>
+    <string name="ing2">Томаты</string>
+    <string name="ing3">Лук</string>
+    <string name="ing4">Ветчина</string>
+    <string name="ing5">Куриная грудка</string>
+    <string name="ing6">Маслины</string>
+    <string name="ing7">Сыр</string>
+    <string name="ing8">Укроп</string>
+    <string  name="Beautiful_txt">Это  очень  красивый  шрифт,  я  сам  его создал!!!</string>
+    <string name="cat">Кошка</string>
+    <string name="dog">Собака</string>
+    <string name="cow">Корова</string>
+    <string name="frog">Лягушка</string>
+    <string name="duck">Утка</string>
+    <string name="cat_sounds">Мяу</string>
+    <string name="dog_sounds">Гав</string>
+    <string name="cow_sounds">Мууу</string>
+    <string name="frog_sounds">Ква ква</string>
+    <string name="duck_sounds">Кря кря</string>
+    <string  name="riddles">Не  лает,  не  кусает,  а  в  дом  не  пускает?</string>
+    <string name="answer">Замок</string>
+    <string name="sh_ans">Показать ответ</string>
+    <string name="Fd">Заполните данные</string>
+    <string name="del_all">Удалить всё</string>
+    <string  name="correction">Вы  действительно  хотите  удалить  все данные?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="question">Сколько будет 25+20?</string>
+    <string name="hint">Введите ответ</string>
+    <string name="check">Проверить</string>
+    <string name="saved">Сохранить</string>
+    <string name="Mymusic">Моя музыка</string>
+    <string name="Creator">Выполнил: Главин Георгий 305с9-1</string>
+
+
+
+
+
+
+</resources>

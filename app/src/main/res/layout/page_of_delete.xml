@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/green"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/text"
+        android:hint="@string/Fd"
+        style="@style/TextViewStyle"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_del"
+        android:text="@string/del_all"
+        style="@style/MainButtonStyle"/>
+
+
+</LinearLayout>

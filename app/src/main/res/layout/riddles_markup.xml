@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/green"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/zagadka"
+        android:text="@string/riddles"
+        style="@style/MainTextViewStyle"/>
+
+
+    <TextView
+        android:id="@+id/otvet"
+        android:text="@string/answer"
+        android:textColor="@color/transparent"
+        style="@style/TextViewStyle"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_otv"
+        android:text="@string/sh_ans"
+        style="@style/TextViewStyle"/>
+
+
+</LinearLayout>

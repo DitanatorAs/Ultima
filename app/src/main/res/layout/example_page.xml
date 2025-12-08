@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/green"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/primer"
+        android:text="@string/question"
+        style="@style/MainTextViewStyle"/>
+
+
+    <EditText
+        android:id="@+id/otvet"
+        android:hint="@string/hint"
+        style="@style/TextViewStyle"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_proverka"
+        android:text="@string/check"
+        style="@style/MainButtonStyle"/>
+
+
+</LinearLayout>

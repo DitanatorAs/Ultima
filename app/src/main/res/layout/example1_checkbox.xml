@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding = "10dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/ch_box1"
+            style="@style/checkbox_style"/>
+        <TextView
+            android:id="@+id/tv1"
+            android:text="@string/ing1"
+            style="@style/TextViewStyle"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/ch_box2"
+            style="@style/checkbox_style"/>
+
+        <TextView
+            android:id="@+id/tv2"
+            android:text="@string/ing2"
+            style="@style/TextViewStyle"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/ch_box3"
+            style="@style/checkbox_style"/>
+
+        <TextView
+            android:id="@+id/tv3"
+            android:text="@string/ing3"
+            style="@style/TextViewStyle"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/ch_box4"
+            style="@style/checkbox_style"/>
+
+        <TextView
+            android:id="@+id/tv4"
+            android:text="@string/ing4"
+            style="@style/TextViewStyle"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/ch_box5"
+            style="@style/checkbox_style"/>
+
+        <TextView
+            android:id="@+id/tv5"
+            android:text="@string/ing5"
+            style="@style/TextViewStyle"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/ch_box6"
+            style="@style/checkbox_style"/>
+
+        <TextView
+            android:id="@+id/tv6"
+            android:text="@string/ing6"
+            style="@style/TextViewStyle"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/ch_box7"
+            style="@style/checkbox_style"/>
+
+        <TextView
+            android:id="@+id/tv7"
+            android:text="@string/ing7"
+            style="@style/TextViewStyle"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/ch_box8"
+            style="@style/checkbox_style"/>
+        <TextView
+            android:id="@+id/tv8"
+            android:text="@string/ing8"
+            style="@style/TextViewStyle"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

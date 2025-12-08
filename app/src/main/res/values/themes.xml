@@ -1,0 +1,75 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Ultima" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="Theme.Ultima" parent="Base.Theme.Ultima" />
+    <style name="MainTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@color/green</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:shadowColor">@color/white</item>
+        <item name="android:shadowDx">10</item>
+        <item name="android:shadowDy">10</item>
+        <item name="android:shadowRadius">10</item>
+    </style>
+    <style name="MainButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/style_button</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:shadowColor">@color/white</item>
+        <item name="android:shadowDx">10</item>
+        <item name="android:shadowDy">10</item>
+        <item name="android:shadowRadius">10</item>
+    </style>
+    <style name="MainButtonStyle.bf" parent="MainButtonStyle">
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/style_button_ex</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:shadowColor">@color/lightblue</item>
+    </style>
+    <style name="TextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:gravity">left</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+    <style name="TextViewStyle.bolt" parent="TextViewStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/blue</item>
+    </style>
+    <style name="checkbox_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:button">@drawable/checkbox_selector</item>
+    </style>
+
+
+
+
+
+</resources>

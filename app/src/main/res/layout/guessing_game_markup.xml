@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/green"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/MainTextViewStyle"/>
+
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"/>
+
+
+    <TextView
+        android:id="@+id/voic"
+        style="@style/TextViewStyle"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_next"
+        android:text="@string/txtNext"
+        style="@style/MainButtonStyle"/>
+
+
+</LinearLayout>
